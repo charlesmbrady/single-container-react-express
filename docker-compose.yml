@@ -14,9 +14,9 @@ services:
     ports:
       - 4000:4000
     # Volumes to mount
-    volumes:
-      - ./:/usr/src/app
+    # volumes:
+    #   - ./:/usr/src/app
     # Run command
     command: node server.js
     # Restart action
-    restart: always
+    # restart: always

@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 app.get('/api/check', (req, res) => {
     console.log("get test hit");
-    res.send("app is up!")
+    res.send("app is upp!")
 })
 
 

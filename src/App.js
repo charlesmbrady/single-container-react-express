@@ -26,7 +26,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Deploy to AWS
+          Deploy to AWSs
         </a>
         <button onClick={() => check()}>Check</button>
       </header>
