@@ -8,11 +8,7 @@ const path = require('path');
 app.use(express.urlencoded({ limit: '100mb', extended: true }));
 app.use(express.json({ limit: '100mb' }));
 
-// app.get('*', (req, res) => {
-//     const way = path.join(__dirname, './client/build', 'index.html');
-//     res.sendFile(way);
-//   });
-
+// Serves the static React build 
 app.use('/static', express.static(path.join(__dirname, './build/static')));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/build/'));

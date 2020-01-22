@@ -1,7 +1,5 @@
 to run this project, clone the repo
 
-then cd into the /client directory
-
 from there, you can do 'yarn install' to install dependencies and then 'yarn build' and then 'yarn start-server'
 
 OR 

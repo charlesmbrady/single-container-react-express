@@ -7,16 +7,14 @@ services:
   server:
     # Tell docker what file to build the server from
     build: .
+
     # The ports to expose
     expose:
       - 4000
+
     # Port mapping
     ports:
       - 4000:4000
-    # Volumes to mount
-    # volumes:
-    #   - ./:/usr/src/app
+      
     # Run command
     command: node server.js
-    # Restart action
-    # restart: always
